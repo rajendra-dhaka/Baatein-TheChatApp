@@ -1,0 +1,37 @@
+.formContainer{
+  background-color: #a7bcff;
+  display: flex;
+
+  .formWrapper{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+.logo{
+  color: #5d5b8d;
+  font-weight: bold;
+  font-size: 24px;
+}
+.title{
+  color: #5d5b8d;
+  font-size: 12px;
+}
+
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      ion-label{
+        color: rgb(175,175,175);
+      }
+      ion-button{
+        --background: #7b96ec;
+      }
+    }
+    ion-text{
+      font-size: 12px;
+      color: #5d5b8d;
+    }
+  }
+}

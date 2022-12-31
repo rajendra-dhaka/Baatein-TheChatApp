@@ -1,0 +1,11 @@
+.home{
+  background-color: #a7bcff;
+  display: flex;
+  .container{
+    width: 65%;
+    height: 80%;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+  }
+}
