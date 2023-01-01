@@ -1,48 +1,53 @@
-.formContainer{
-  background-color: #a7bcff;
+.register-page-container {
+  background: linear-gradient(var(--background));
   display: flex;
 
-  .formWrapper{
-    padding: 20px 60px;
+  .formWrapper {
+    padding: 2rem 6rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
 
-.logo{
-  color: #5d5b8d;
-  font-weight: bold;
-  font-size: 24px;
-}
-.title{
-  color: #5d5b8d;
-  font-size: 12px;
-}
+    ion-avatar {
+      width: 3rem;
+      height: 3rem;
+    }
 
-    form{
+    .logo {
+      color: var(--primary);
+      font-weight: bold;
+      font-size: 2.4rem;
+    }
+    .title {
+      color: var(--quadnary);
+      font-size: 1.2rem;
+    }
+
+    form {
       display: flex;
       flex-direction: column;
-      gap: 15px;
-      ion-label{
-        color: rgb(175,175,175);
+      gap: 1.5rem;
+      ion-label {
+        color: var(--gray);
       }
-      ion-button{
-        --background: #7b96ec;
+      ion-button {
+        --background: var(--primary);
       }
 
-      label{
+      label {
         display: flex;
         align-items: center;
-        gap: 10px;
-        color: #8da4f1;
-        font-size: 12px;
-        ion-icon{
-          font-size: 24px;
+        gap: 1.0rem;
+        color: var(--quadnary);
+        font-size: 1.2rem;
+        ion-icon {
+          font-size: 2.4rem;
         }
       }
     }
-    ion-text{
-      font-size: 12px;
-      color: #5d5b8d;
+    ion-text {
+      font-size: 1.2rem;
+      color: var(--quadnary);
     }
   }
 }

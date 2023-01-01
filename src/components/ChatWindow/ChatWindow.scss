@@ -1,3 +1,25 @@
-.chat-window{
-  flex: 2;
+.chat-window {
+  height: 100%;
+  .chat-section-header {
+    --background: var(--secondary);
+    height: 6.4rem;
+    padding-left: 1rem;
+    ion-row {
+      display: flex;
+      align-items: center;
+      font-size: 2rem;
+    }
+
+    .cta {
+      display: flex;
+      gap: 2rem;
+      justify-content: flex-end;
+    }
+  }
+  .chat-section{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 133px);
+    overflow-y: scroll;
+  }
 }

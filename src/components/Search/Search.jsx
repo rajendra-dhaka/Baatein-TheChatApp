@@ -3,7 +3,9 @@ import React from "react";
 import './Search.scss'
 
 export const Search = () => {
-  return <div>
-    <IonSearchbar></IonSearchbar>
-  </div>;
+  return (
+    <div>
+      <IonSearchbar className='ion-no-padding ion-no-margin custom'></IonSearchbar>
+    </div>
+  );
 };

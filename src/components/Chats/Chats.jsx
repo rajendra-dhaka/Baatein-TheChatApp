@@ -1,9 +1,10 @@
 import { IonAvatar, IonCol, IonGrid, IonItem, IonRow } from "@ionic/react";
 import React from "react";
+import './Chats.scss'
 
 export const Chats = () => {
   return (
-    <IonItem className="ion-margin ion-no-padding">
+    <IonItem className=" ion-no-padding single-chat">
       <IonGrid>
         <IonRow className='ion-align-items-center'>
           <IonCol size='3'>

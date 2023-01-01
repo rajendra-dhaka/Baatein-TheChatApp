@@ -1,10 +1,44 @@
-ion-button {
-  font-size: 10px;
-}
-ion-avatar {
-  img {
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
+.chat-list-header {
+  --background: var(--secondary);
+  padding-left: 1rem;
+
+  .brand-logo {
+    display: flex;
+    flex-direction: column;
+    ion-avatar {
+      width: 3rem;
+      height: 3rem;
+    }
+    ion-text {
+      font-weight: 600;
+    }
+  }
+
+  .user-info {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+    ion-avatar {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 3rem;
+        height: 3rem;
+        object-fit: contain;
+      }
+    }
+
+    ion-button {
+      --color: var(--quadnary);
+      --background: transparent;
+      border: 0.2rem solid var(--primary);
+      border-radius: 2rem;
+      font-size: 0.8rem;
+      overflow: hidden;
+    }
   }
 }
